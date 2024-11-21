@@ -1,0 +1,43 @@
+/* Krishna Samirbhai Rao 
+15/10/2024 */
+
+img
+{
+    width:auto;
+height:auto;
+min-width:0;
+max-width:100%;
+
+    margin: 1em;
+}
+nav ul{
+    padding: 0%;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+nav li{
+    background-color: #ff6600;
+    border-radius: 1em;
+    list-style-type: none;
+    margin: 0.3em;
+    padding: 0.4em;
+    text-align: center;
+}
+nav li a{
+    color:#ffffff;
+    text-decoration: none;
+}
+.mobile{
+    display: inline;
+}
+hr{
+    background-color: #ff6600;
+    height: 0.25em;
+    border-radius: 0.5em;
+}
+p{
+    text-transform: bold;
+}
+h1{
+    text-align: center;
+}

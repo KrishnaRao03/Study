@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 8: JavaScript Events</title>
+    <style>
+        #hoverDiv {
+            width: 200px;
+            height: 100px;
+            border: 1px solid black;
+            text-align: center;
+            line-height: 100px;
+            margin-bottom: 20px;
+        }
+        input {
+            border: 2px solid gray;
+            padding: 5px;
+            margin-bottom: 10px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin: 5px 0;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h2>Task 1: Click Event</h2>
+    <button id="clickButton">Click Here</button>
+
+    <h2>Task 2: Mouse Events</h2>
+    <div id="hoverDiv">Hover here</div>
+
+    <h2>Task 3: Keyboard Events</h2>
+    <input type="text" id="input" placeholder="Type something">
+
+    <h2>Task 4: Form Events</h2>
+    <form id="Form">
+        <input type="text" id="name" placeholder="Name">
+        <button type="submit">Submit</button>
+    </form>
+
+    <h2>Task 5: Focus and Blur Events</h2>
+    <input type="text" id="focusInput" placeholder="Focus">
+
+    <h2>Task 6: Event Delegation</h2>
+    <ul id="list">
+        <li>A</li>
+        <li>B</li>
+        <li>C</li>
+        <li>D</li>
+        <li>E</li>
+    </ul>
+
+    <script>
+        // Task 1: 
+        const button = document.getElementById('clickButton');
+        button.addEventListener('click', () => {
+            button.textContent = "Clicked!";
+        });
+
+        // Task 2:  
+        const div = document.getElementById('hoverDiv');
+        div.addEventListener('mouseenter', () => {
+            div.style.backgroundColor = 'green';
+        });
+        div.addEventListener('mouseleave', () => {
+            div.style.backgroundColor = 'Green';
+        });
+
+        // Task 3:
+        const inputField = document.getElementById('input');
+        inputField.addEventListener('keyup', (event) => {
+            console.log(`Key pressed: ${event.key}`);
+        });
+
+        // Task 4:  
+        const form = document.getElementById('Form');
+        form.addEventListener('submit', (event) => {
+            event.preventDefault();
+            const name = document.getElementById('nameInput').value;
+            console.log(`Name entered: ${name}`);
+        });
+
+        // Task 5:
+        const input = document.getElementById('focusInput');
+        input.addEventListener('focus', () => {
+            input.style.borderColor = 'blue';
+        });
+        input.addEventListener('blur', () => {
+            input.style.borderColor = 'red';
+        });
+
+        // Task 6: 
+        const list = document.getElementById('list');
+        list.addEventListener('click', (event) => {
+            if (event.target.tagName === 'LI') {
+                event.target.style.backgroundColor = 'yellow';
+            }
+        });
+    </script>
+</body>
+</html>

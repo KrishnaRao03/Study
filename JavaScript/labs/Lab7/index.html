@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lab 7: HTML and CSS Basics</title>
+  <style>
+    /* TASK 3: CSS STYLES */
+    body {
+      background-color: #f0f0f0;
+    }
+
+    h1 {
+      font-size: 2em; 
+      color: #333; 
+    }
+
+    p {
+      font-size: 1em; 
+      line-height: 1.5; 
+    }
+
+    li {
+      padding: 5px; 
+      background-color: #ddd; 
+      margin-bottom: 5px;
+    }
+  </style>
+</head>
+<body>
+  <!-- TASK 2: CONTENT -->
+  <h1>Welcome to HTML and CSS Basics</h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores veritatis possimus molestias voluptate eius blanditiis hic aperiam voluptatem sunt eum reiciendis voluptas, corporis explicabo asperiores dolor unde quisquam rerum voluptates?
+  </p>
+  <ul>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+  </ul>
+  <button id="changeBgButton">Change Background</button> 
+  <button id="addItemButton">Add Item</button>
+  
+  <!-- TASK 4 & 5: JAVASCRIPT -->
+  <script>
+    function changebg() {
+      document.body.style.backgroundColor = '#c0c0c0'; 
+    }
+
+    function additem() {
+      var ul = document.querySelector('ul'); 
+      var li = document.createElement('li');
+      li.textContent = 'New Item'; 
+      ul.appendChild(li);
+    }
+
+    document.getElementById('changeBgButton').addEventListener('click', changebg);
+    document.getElementById('addItemButton').addEventListener('click', additem);
+  </script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+body
+{
+    background-color: green;
+    width: 100%;
+}
+.wrapper{
+    margin:0% 20%;
+}
+main{
+    width: 100%;
+    border-radius: 20px;
+    padding: 5px 5px;
+    height: 250px;
+    background-color: lightgreen;
+}
+footer{
+    text-align: center;
+}
+
+.ski_body
+{
+    width: 100%;
+    background-color: #01ffff;
+}
+.ski_header
+{
+    height: 240px;
+    background-color: blue;
+}
+.ski_wrapper
+{
+    width: 80%;
+    margin: 0% 10%;
+    height: 100px;
+    background-color: aliceblue;
+}
+img{
+    float: left; 
+ }
+ .first_div
+ {  
+    padding: 1% 10%;
+    width:100px;
+    background-color: cadetblue;
+    height: 160px;  
+ }
+ .nav-ski
+ {
+    height: 84px;
+    background-color: antiquewhite;
+ }

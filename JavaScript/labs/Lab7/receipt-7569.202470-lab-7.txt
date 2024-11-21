@@ -1,0 +1,8 @@
+Your submission was successful!
+Course: 7569.202470, Fundamentals of JavaScript - CPAN-113-0NC
+Assessment: lab-7
+
+Submission date: 11/9/24, 11:52 PM
+Submission size: 45 KB
+Submitter: Krishna Samirbhai Rao
+Confirmation number: f7e6d4b8c99f468b8c1d74098f36171e

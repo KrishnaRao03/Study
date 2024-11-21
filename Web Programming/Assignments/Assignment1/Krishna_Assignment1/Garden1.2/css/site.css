@@ -1,0 +1,73 @@
+h1.style
+{
+    font-family:  'Century Gothic', 'serif';
+    font-size: 3em;
+    font-weight: 500;
+    line-height: 400%;
+    text-align: center;
+}
+nav.style
+{
+    font-family:  'Century Gothic', 'serif';
+    color: rgb(35,102, 12);
+    text-align: center;
+}
+footer.style
+{
+    font-family:  'Century Gothic', 'serif';
+    font-size: smaller;
+    background-color: rgb(65,132, 42);
+    color:#eee;
+}
+a.style
+{
+    color:rgb(35,102, 12);
+}
+h2.style
+{
+    font-family: 'gabriola', 'san-sefif';
+    font-size: 2em;
+    color: rgb(35,102, 12);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+h3.style
+{
+    font-family: 'gabriola', 'san-sefif';
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+dt.style
+{
+    font-family: 'gabriola', 'san-sefif';
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+#copyright
+{
+    font-family: serif;
+    font-style: italic;
+    text-align: center;
+}
+header.color
+{
+    background-color: rgb(65,132, 42);
+    color:#eee;
+}
+
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  .nav-a
+  {
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  .footer-nav a
+  {
+    color: #eee;
+  }

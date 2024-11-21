@@ -1,0 +1,87 @@
+@media screen and (min-width: 1024px) {
+    body{
+        background-color: #000066;
+        font-family: Verdana, Arial, sans-serif;
+    }
+    .wrapper{
+    margin: 2% 3%;
+    }
+    header{
+        background-color: #869dc7;
+        border: 1px solid grey;
+        display: block;
+        height: auto;
+        width: auto;
+        padding: 0px;
+        margin: 0px;
+    }
+    
+    header img{
+        float: left;
+    }
+    header h1{
+        font-family: 'Great Vibes';
+        margin: 0px;
+        display: block;
+        font-size: 50px;
+        color: black;
+        padding: 3% 5% 3.5% 1%;
+    }
+    
+    ul{
+        margin-left: 0px;
+        margin-top: 0px;
+        padding: 0px;
+        list-style-type: none;
+    }
+    ul li a{
+        text-decoration: none;
+        padding: 20px;
+        display: block;
+        background-color: #e6b3e2;
+        color: #EAEAEA;
+        letter-spacing: 0.1em;
+        font-weight: bold;
+        border-bottom: 1px solid #FFFFFF;
+    }
+    main {
+        display: flex; 
+        height: 480px;
+        background-color: #b3c7e6;
+    }
+    
+    .column1 {
+        flex: 1; 
+    }
+    
+    .column2 {
+        background-color: #FFFFFF;
+        flex: 4; 
+        text-align: left; 
+    }
+    
+    .column3 {
+        flex: 1;
+        padding: 2% 4% 0% 0%;
+        float: right; 
+        text-align: center;
+    }
+    .column2 h2
+    {
+        color:#869dc7d8;
+      padding: 1% 2% 0% 3.5%;
+    }
+    .column2 p{
+        padding: 0% 2% 0% 3.5%;
+    }
+    footer
+    {
+            background-color: #869dc7;
+            height: 50px;    
+    }
+    footer p{
+        padding: 1% 0% 0% 0%;
+        margin: 0%;
+        text-align: center;
+    }
+}
