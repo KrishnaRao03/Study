@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EB503CF7-CDC2-450B-8548-DEA607864CA0" name="Relation_2">
+<createdBy>krish</createdBy>
+<createdTime>2024-11-26 22:11:05 UTC</createdTime>
+<ownerDesignName>Activity2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="driver_driver_id" id="F0A58F8B-B4A2-337F-A5FF-C688DE3F625A">
+<createdBy>krish</createdBy>
+<createdTime>2024-11-26 22:11:05 UTC</createdTime>
+<ownerDesignName>Activity2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="85B2E064-1895-2DA1-CD5D-140DA385BC45" referredColumn="716E5321-F6EC-2052-89D5-FF8A485DBA99"/>
+</associations>
+</Column>
+<Column name="vehicle_vehicle_id" id="7D31C38F-16C5-B563-5696-539F5EAE4ED5">
+<createdBy>krish</createdBy>
+<createdTime>2024-11-26 22:11:05 UTC</createdTime>
+<ownerDesignName>Activity2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F01DCA29-7A4F-E76C-62FA-A0585BDA7103" referredColumn="0A81C9DF-37B0-C9D3-6D57-79092044B993"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9068E03A-A754-FE2C-597F-8A98B187CAE0" name="Relation_2_PK">
+<createdBy>krish</createdBy>
+<createdTime>2024-11-26 22:11:05 UTC</createdTime>
+<ownerDesignName>Activity2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F0A58F8B-B4A2-337F-A5FF-C688DE3F625A"/>
+<colUsage columnID="7D31C38F-16C5-B563-5696-539F5EAE4ED5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D4BB1F5E-4803-1793-55FA-D9738F9C15C7" name="Relation_2_driver_FK">
+<createdBy>krish</createdBy>
+<createdTime>2024-11-26 22:11:05 UTC</createdTime>
+<generatorID>ACFCD0F5-13D6-D85D-B5A8-FF33DA2439B5</generatorID>
+<ownerDesignName>Activity2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F0A58F8B-B4A2-337F-A5FF-C688DE3F625A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1D4CCCC1-DBCF-F009-380E-CFD373BD61B8" name="Relation_2_vehicle_FK">
+<createdBy>krish</createdBy>
+<createdTime>2024-11-26 22:11:05 UTC</createdTime>
+<generatorID>ACFCD0F5-13D6-D85D-B5A8-FF33DA2439B5</generatorID>
+<ownerDesignName>Activity2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7D31C38F-16C5-B563-5696-539F5EAE4ED5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

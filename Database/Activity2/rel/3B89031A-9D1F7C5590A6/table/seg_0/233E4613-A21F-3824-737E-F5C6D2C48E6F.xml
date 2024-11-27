@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="233E4613-A21F-3824-737E-F5C6D2C48E6F" name="Bus">
+<createdBy>krish</createdBy>
+<createdTime>2024-11-26 22:09:00 UTC</createdTime>
+<generatorID>0DEFA5C6-0E50-8A78-24D0-00C1F2C41736</generatorID>
+<ownerDesignName>Activity2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="vehicle_id" id="FA254A26-9E07-0602-EA95-F4EAF49B8D02">
+<createdBy>krish</createdBy>
+<createdTime>2024-11-26 22:09:00 UTC</createdTime>
+<generatorID>D34DA5C5-89BB-14B0-A376-C62F38BB05FB</generatorID>
+<ownerDesignName>Activity2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2208CEF2-EEF9-C3EE-A592-88DD1DDBB2C0" referredColumn="0A81C9DF-37B0-C9D3-6D57-79092044B993"/>
+</associations>
+</Column>
+<Column name="seat_cap" id="FCC92D3A-5E69-45AA-7CE3-1DDC6AA84344">
+<createdBy>krish</createdBy>
+<createdTime>2024-11-26 22:09:00 UTC</createdTime>
+<generatorID>A04FB4A0-6412-B08A-2D23-C3A51C560A03</generatorID>
+<ownerDesignName>Activity2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="routes" id="14895783-EB8B-1CA0-B7CA-AE178B22EEED">
+<createdBy>krish</createdBy>
+<createdTime>2024-11-26 22:09:00 UTC</createdTime>
+<generatorID>D61C24E6-DE16-97B1-3860-1F146EEC320F</generatorID>
+<ownerDesignName>Activity2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0C536776-D401-F863-837C-9371DD43E1B5" name="Bus_PK">
+<createdBy>krish</createdBy>
+<createdTime>2024-11-26 22:09:00 UTC</createdTime>
+<generatorID>C28D4809-FF53-35FE-A925-2911B2121445</generatorID>
+<ownerDesignName>Activity2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FA254A26-9E07-0602-EA95-F4EAF49B8D02"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D8156C85-1119-1DDB-436A-15879C604DC0" name="Bus_vehicle_FK">
+<createdBy>krish</createdBy>
+<createdTime>2024-11-26 22:09:00 UTC</createdTime>
+<generatorID>0DFF0B69-3EEB-5FA7-06B5-92274E59C7C4</generatorID>
+<ownerDesignName>Activity2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FA254A26-9E07-0602-EA95-F4EAF49B8D02"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

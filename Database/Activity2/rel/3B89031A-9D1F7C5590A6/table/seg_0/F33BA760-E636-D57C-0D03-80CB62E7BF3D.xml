@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F33BA760-E636-D57C-0D03-80CB62E7BF3D" name="truck">
+<createdBy>krish</createdBy>
+<createdTime>2024-11-26 22:09:00 UTC</createdTime>
+<generatorID>D2FE5A12-A184-43A8-DF49-C0E96535A952</generatorID>
+<ownerDesignName>Activity2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="vehicle_id" id="C60940AB-E8B0-146E-2C51-68975E2E2630">
+<createdBy>krish</createdBy>
+<createdTime>2024-11-26 22:09:00 UTC</createdTime>
+<generatorID>D34DA5C5-89BB-14B0-A376-C62F38BB05FB</generatorID>
+<ownerDesignName>Activity2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="794C3128-7242-9C81-7ADD-9C3D98ADFC1E" referredColumn="0A81C9DF-37B0-C9D3-6D57-79092044B993"/>
+</associations>
+</Column>
+<Column name="pay_load_cap" id="C442D9D4-F8DD-B044-8206-BDBD55432684">
+<createdBy>krish</createdBy>
+<createdTime>2024-11-26 22:09:00 UTC</createdTime>
+<generatorID>D0465AD6-B994-48A3-FECD-3C28348444F0</generatorID>
+<ownerDesignName>Activity2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="axles" id="B898660B-9545-BDEA-1793-D28DB39CF901">
+<createdBy>krish</createdBy>
+<createdTime>2024-11-26 22:09:00 UTC</createdTime>
+<generatorID>B3DD90FC-D9BE-A18E-00A4-265E03A01076</generatorID>
+<ownerDesignName>Activity2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B55993A7-CABB-AC7C-34BA-9A06CDE42AB0" name="truck_PK">
+<createdBy>krish</createdBy>
+<createdTime>2024-11-26 22:09:00 UTC</createdTime>
+<generatorID>C28D4809-FF53-35FE-A925-2911B2121445</generatorID>
+<ownerDesignName>Activity2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C60940AB-E8B0-146E-2C51-68975E2E2630"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8AD280A0-3BBC-6427-4EEF-491ED8E975C1" name="truck_vehicle_FK">
+<createdBy>krish</createdBy>
+<createdTime>2024-11-26 22:09:00 UTC</createdTime>
+<generatorID>3A32B39A-1457-6B84-C61B-9027D2DF5611</generatorID>
+<ownerDesignName>Activity2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C60940AB-E8B0-146E-2C51-68975E2E2630"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

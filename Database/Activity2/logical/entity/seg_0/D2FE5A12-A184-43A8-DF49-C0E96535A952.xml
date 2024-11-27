@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D2FE5A12-A184-43A8-DF49-C0E96535A952" name="truck">
+<createdBy>krish</createdBy>
+<createdTime>2024-11-26 21:57:35 UTC</createdTime>
+<ownerDesignName>Activity2</ownerDesignName>
+<engineerTo>
+<item key="3B89031A-FFCC-0589-2782-9D1F7C5590A6" value="true"/>
+<item key="DB46C483-0C4A-CAC0-19F2-BC34033A3C9A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>030C68C2-100E-C6B7-E01F-9B85262A7199</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="pay_load_cap" id="D0465AD6-B994-48A3-FECD-3C28348444F0">
+<createdBy>krish</createdBy>
+<createdTime>2024-11-26 22:02:30 UTC</createdTime>
+<ownerDesignName>Activity2</ownerDesignName>
+<engineerTo>
+<item key="3B89031A-FFCC-0589-2782-9D1F7C5590A6" value="true"/>
+<item key="DB46C483-0C4A-CAC0-19F2-BC34033A3C9A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="axles" id="B3DD90FC-D9BE-A18E-00A4-265E03A01076">
+<createdBy>krish</createdBy>
+<createdTime>2024-11-26 22:02:49 UTC</createdTime>
+<ownerDesignName>Activity2</ownerDesignName>
+<engineerTo>
+<item key="3B89031A-FFCC-0589-2782-9D1F7C5590A6" value="true"/>
+<item key="DB46C483-0C4A-CAC0-19F2-BC34033A3C9A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E73014DE-1A43-9981-AD2F-CFAD2D0D92CB" name="driver">
+<createdBy>krish</createdBy>
+<createdTime>2024-11-26 22:09:00 UTC</createdTime>
+<generatorID>44966C5E-867E-1394-7064-BD462001846B</generatorID>
+<ownerDesignName>Activity2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="driver_id" id="716E5321-F6EC-2052-89D5-FF8A485DBA99">
+<createdBy>krish</createdBy>
+<createdTime>2024-11-26 22:09:00 UTC</createdTime>
+<generatorID>54824A76-F0A7-2EDB-A6AD-F9E0F18C0294</generatorID>
+<ownerDesignName>Activity2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="B0FE2A91-EB7D-476F-DE11-283ABA1CF1A5">
+<createdBy>krish</createdBy>
+<createdTime>2024-11-26 22:09:00 UTC</createdTime>
+<generatorID>5DE47453-8CB9-2940-ECE9-B5432E1F65A7</generatorID>
+<ownerDesignName>Activity2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="license_number" id="1B14E75E-A526-2950-799C-DAAB416C21C3">
+<createdBy>krish</createdBy>
+<createdTime>2024-11-26 22:09:00 UTC</createdTime>
+<generatorID>38DC753F-1F08-698D-D488-C6CECE0CEFA8</generatorID>
+<ownerDesignName>Activity2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phone_no" id="634DA87E-D153-D4DC-E538-A7748D5F9027">
+<createdBy>krish</createdBy>
+<createdTime>2024-11-26 22:09:00 UTC</createdTime>
+<generatorID>BFFFE1D2-F051-545B-2D9C-0D90023F55F3</generatorID>
+<ownerDesignName>Activity2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT027</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BFD65026-CF3C-A792-E7D0-86C6F7D0B46F" name="driver_PK">
+<createdBy>krish</createdBy>
+<createdTime>2024-11-26 22:09:00 UTC</createdTime>
+<generatorID>7C58D157-B554-E00C-E7EE-E20B8695CD11</generatorID>
+<ownerDesignName>Activity2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="716E5321-F6EC-2052-89D5-FF8A485DBA99"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

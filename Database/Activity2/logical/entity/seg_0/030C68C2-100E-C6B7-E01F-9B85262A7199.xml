@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="030C68C2-100E-C6B7-E01F-9B85262A7199" name="vehicle">
+<createdBy>krish</createdBy>
+<createdTime>2024-11-26 21:15:26 UTC</createdTime>
+<ownerDesignName>Activity2</ownerDesignName>
+<engineerTo>
+<item key="3B89031A-FFCC-0589-2782-9D1F7C5590A6" value="true"/>
+<item key="DB46C483-0C4A-CAC0-19F2-BC34033A3C9A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="vehicle_id" id="D34DA5C5-89BB-14B0-A376-C62F38BB05FB">
+<createdBy>krish</createdBy>
+<createdTime>2024-11-26 21:15:34 UTC</createdTime>
+<ownerDesignName>Activity2</ownerDesignName>
+<engineerTo>
+<item key="3B89031A-FFCC-0589-2782-9D1F7C5590A6" value="true"/>
+<item key="DB46C483-0C4A-CAC0-19F2-BC34033A3C9A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="license_plate" id="2427F4BA-3300-38F4-9382-BDC2E3EC8832">
+<createdBy>krish</createdBy>
+<createdTime>2024-11-26 21:17:16 UTC</createdTime>
+<ownerDesignName>Activity2</ownerDesignName>
+<engineerTo>
+<item key="3B89031A-FFCC-0589-2782-9D1F7C5590A6" value="true"/>
+<item key="DB46C483-0C4A-CAC0-19F2-BC34033A3C9A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LogDes-1768A872-F385-FDBA-D95E-0CB63F5908E2@LOGDT10045</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="manufacture" id="B99607CB-789B-76AA-141F-76AF5F7C40DF">
+<createdBy>krish</createdBy>
+<createdTime>2024-11-26 21:18:36 UTC</createdTime>
+<ownerDesignName>Activity2</ownerDesignName>
+<engineerTo>
+<item key="3B89031A-FFCC-0589-2782-9D1F7C5590A6" value="true"/>
+<item key="DB46C483-0C4A-CAC0-19F2-BC34033A3C9A" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="model" id="F5B9B131-4677-67F4-13F7-6209992E8BC0">
+<createdBy>krish</createdBy>
+<createdTime>2024-11-26 21:19:09 UTC</createdTime>
+<ownerDesignName>Activity2</ownerDesignName>
+<engineerTo>
+<item key="3B89031A-FFCC-0589-2782-9D1F7C5590A6" value="true"/>
+<item key="DB46C483-0C4A-CAC0-19F2-BC34033A3C9A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="year" id="E6017626-4A22-E286-F3DD-267F9774E515">
+<createdBy>krish</createdBy>
+<createdTime>2024-11-26 21:19:28 UTC</createdTime>
+<ownerDesignName>Activity2</ownerDesignName>
+<engineerTo>
+<item key="3B89031A-FFCC-0589-2782-9D1F7C5590A6" value="true"/>
+<item key="DB46C483-0C4A-CAC0-19F2-BC34033A3C9A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="type" id="910FFEBB-FBAC-9AA5-BA3B-182EDB12A5F8">
+<createdBy>krish</createdBy>
+<createdTime>2024-11-26 21:20:18 UTC</createdTime>
+<ownerDesignName>Activity2</ownerDesignName>
+<engineerTo>
+<item key="3B89031A-FFCC-0589-2782-9D1F7C5590A6" value="true"/>
+<item key="DB46C483-0C4A-CAC0-19F2-BC34033A3C9A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C28D4809-FF53-35FE-A925-2911B2121445" name="vehicle PK">
+<createdBy>krish</createdBy>
+<createdTime>2024-11-26 21:16:10 UTC</createdTime>
+<ownerDesignName>Activity2</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="3B89031A-FFCC-0589-2782-9D1F7C5590A6" value="false"/>
+<item key="DB46C483-0C4A-CAC0-19F2-BC34033A3C9A" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D34DA5C5-89BB-14B0-A376-C62F38BB05FB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

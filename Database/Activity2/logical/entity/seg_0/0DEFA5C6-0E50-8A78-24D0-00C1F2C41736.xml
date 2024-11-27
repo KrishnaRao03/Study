@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="0DEFA5C6-0E50-8A78-24D0-00C1F2C41736" name="Bus">
+<createdBy>krish</createdBy>
+<createdTime>2024-11-26 21:57:09 UTC</createdTime>
+<ownerDesignName>Activity2</ownerDesignName>
+<engineerTo>
+<item key="3B89031A-FFCC-0589-2782-9D1F7C5590A6" value="true"/>
+<item key="DB46C483-0C4A-CAC0-19F2-BC34033A3C9A" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>030C68C2-100E-C6B7-E01F-9B85262A7199</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="seat_cap" id="A04FB4A0-6412-B08A-2D23-C3A51C560A03">
+<createdBy>krish</createdBy>
+<createdTime>2024-11-26 22:01:26 UTC</createdTime>
+<ownerDesignName>Activity2</ownerDesignName>
+<engineerTo>
+<item key="3B89031A-FFCC-0589-2782-9D1F7C5590A6" value="true"/>
+<item key="DB46C483-0C4A-CAC0-19F2-BC34033A3C9A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="routes" id="D61C24E6-DE16-97B1-3860-1F146EEC320F">
+<createdBy>krish</createdBy>
+<createdTime>2024-11-26 22:01:50 UTC</createdTime>
+<ownerDesignName>Activity2</ownerDesignName>
+<engineerTo>
+<item key="3B89031A-FFCC-0589-2782-9D1F7C5590A6" value="true"/>
+<item key="DB46C483-0C4A-CAC0-19F2-BC34033A3C9A" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
