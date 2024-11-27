@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table
+        {
+            border: 2px solid black;
+            width:400px; 
+            height:400px;
+        }
+        tr{
+            text-align: center;
+        }
+        td{
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+        <table align="center">
+            <form action="#" method="post">
+            <tr>
+                <th colspan="2">
+                    <legend>Login </legend>
+                </th>
+            </tr>
+             
+            <tr>
+                <td>
+                    <label for="name">Email</label>
+                </td>
+                <td>
+                    <input type="email" id="email1" placeholder="Enter your email">
+                </td>
+            <td>
+<span id="error1"></span>
+
+            </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="name">Email</label>
+                </td>
+                <td>
+                    <input type="email" id="email2" placeholder="Confirm your email">
+                </td>
+                <td>
+<span id="error2"></span>
+                </td>
+            </tr>   
+            <tr>
+                <td colspan="2">
+                    <input type="submit" id="submit" value="Submit">
+                </td>
+            </tr>
+        </form>
+        <script src="js/script.js"></script>
+        </table>
+</body>
+</html>
